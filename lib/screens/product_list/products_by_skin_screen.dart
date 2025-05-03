@@ -65,7 +65,6 @@ class ProductsBySkinScreen extends StatelessWidget {
               style: const TextStyle(color: Colors.grey),
             ),
             const SizedBox(height: 12),
-            // فلاتر أفقي
             SizedBox(
               height: 36,
               child: ListView.separated(
@@ -93,7 +92,6 @@ class ProductsBySkinScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
-            // شبكة المنتجات
             Expanded(
               child: GridView.builder(
                 itemCount: products.length,

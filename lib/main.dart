@@ -26,7 +26,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// RootScreen with BottomNavigationBar
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
 

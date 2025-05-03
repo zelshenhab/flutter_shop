@@ -50,7 +50,6 @@ class HomePromotionsList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // العنوان + خط وردي
         Row(
           children: [
             const Text(
@@ -63,7 +62,6 @@ class HomePromotionsList extends StatelessWidget {
         ),
         const SizedBox(height: 12),
 
-        // قائمة المنتجات
         SizedBox(
           height: 250,
           child: ListView.separated(
@@ -156,7 +154,6 @@ class HomePromotionsList extends StatelessWidget {
 
         const SizedBox(height: 20),
 
-        // فلاتر أسفل القائمة
         Wrap(
           spacing: 12,
           runSpacing: 12,

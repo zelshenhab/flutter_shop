@@ -100,7 +100,6 @@ class _HomeBannerState extends State<HomeBanner> {
             },
           ),
         ),
-        // Page indicator
         Positioned(
           left: 16,
           top: 12,

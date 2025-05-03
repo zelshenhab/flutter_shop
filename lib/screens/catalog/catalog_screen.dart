@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'skin_type_screen.dart'; // استيراد الشاشة الجديدة
+import 'skin_type_screen.dart'; 
 
 class CatalogScreen extends StatelessWidget {
   const CatalogScreen({super.key});
